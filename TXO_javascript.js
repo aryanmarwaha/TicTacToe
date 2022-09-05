@@ -305,18 +305,18 @@
 			matrix._00_=option;
 			if(matrix._00_ == matrix._01_ &&matrix._01_ == matrix._02_){
  				_HorizontaltoprowHigh();
-				setTimeout(function(){alert("Game Over '"+ option +"' Won..!!!");
+				setTimeout(function(){alert("Game Over\n-Play Again ??");
 				restartGame()},1000);
 
 			}
 			else if(matrix._00_ == matrix._10_ && matrix._10_ == matrix._20_){
 				_VerticleleftrowHigh();
-				setTimeout(function(){alert("Game Over '"+ option +"' Won..!!!");
+				setTimeout(function(){alert("Game Over\n-Play Again ??");
 				restartGame()},1000);
 			}
 			else if(matrix._00_ == matrix._11_ && matrix._11_ == matrix._22_){
 				_Cross_1High();
-				setTimeout(function(){alert("Game Over '"+ option +"' Won..!!!");
+				setTimeout(function(){alert("Game Over\n-Play Again ??");
 				restartGame()},1000);
 			}
 			
@@ -328,12 +328,12 @@
 			matrix._01_=option;
 			if(matrix._01_ ==matrix._00_ && matrix._00_== matrix._02_){
 				_HorizontaltoprowHigh();
-				setTimeout(function(){alert("Game Over '"+ option +"' Won..!!!");
+				setTimeout(function(){alert("Game Over\n-Play Again ??");
 				restartGame()},1000);
 			}
 			else if(matrix._01_ == matrix._11_ && matrix._11_ == matrix._21_){
 				_VeritclerightrowHigh();
-				setTimeout(function(){alert("Game Over '"+ option +"' Won..!!!");
+				setTimeout(function(){alert("Game Over\n-Play Again ??");
 				restartGame()},1000);
 			}
 
@@ -342,17 +342,17 @@
 			matrix._02_=option;
 			if(matrix._02_ == matrix._00_&&matrix._00_ == matrix._01_){
 				_HorizontaltoprowHigh();
-				setTimeout(function(){alert("Game Over '"+ option +"' Won..!!!");
+				setTimeout(function(){alert("Game Over\n-Play Again ??");
 				restartGame()},1000);
 			}
 			else if(matrix._02_ == matrix._12_&&matrix._12_ == matrix._22_){
 				_VeritclerightrowHigh();
-				setTimeout(function(){alert("Game Over '"+ option +"' Won..!!!");
+				setTimeout(function(){alert("Game Over\n-Play Again ??");
 				restartGame()},1000);
 			}
 			else if(matrix._02_ == matrix._11_&&matrix._11_ == matrix._20_){
 				_Cross_2High();
-				setTimeout(function(){alert("Game Over '"+ option +"' Won..!!!");
+				setTimeout(function(){alert("Game Over\n-Play Again ??");
 				restartGame()},1000);
 			}
 
@@ -361,12 +361,12 @@
 			matrix._10_=option;
 			if(matrix._10_ == matrix._11_&&matrix._11_ == matrix._12_){
 				_HorizontalmidrowHigh();
-				setTimeout(function(){alert("Game Over '"+ option +"' Won..!!!");
+				setTimeout(function(){alert("Game Over\n-Play Again ??");
 				restartGame()},1000);
 			}
 			else if(matrix._10_ == matrix._00_&&matrix._00_ == matrix._20_){
 				_VerticleleftrowHigh();
-				setTimeout(function(){alert("Game Over '"+ option +"' Won..!!!");
+				setTimeout(function(){alert("Game Over\n-Play Again ??");
 				restartGame()},1000);
 			}
 
@@ -375,22 +375,22 @@
 			matrix._11_=option;
 			if(matrix._11_ == matrix._01_&&matrix._01_ == matrix._21_){
 				_VerticlemiddlerowHigh();
-				setTimeout(function(){alert("Game Over '"+ option +"' Won..!!!");
+				setTimeout(function(){alert("Game Over\n-Play Again ??");
 				restartGame()},1000);
 			}
 			else if(matrix._11_ == matrix._10_&&matrix._10_ == matrix._12_){
 				_HorizontalmidrowHigh();
-				setTimeout(function(){alert("Game Over '"+ option +"' Won..!!!");
+				setTimeout(function(){alert("Game Over\n-Play Again ??");
 				restartGame()},1000);
 			}
 			else if(matrix._11_ == matrix._00_&&matrix._00_ == matrix._22_){
 				_Cross_1High();
-				setTimeout(function(){alert("Game Over '"+ option +"' Won..!!!");
+				setTimeout(function(){alert("Game Over\n-Play Again ??");
 				restartGame()},1000);
 			}
 			else if(matrix._11_ == matrix._02_&&matrix._02_ == matrix._20_){
 				_Cross_2High();
-				setTimeout(function(){alert("Game Over '"+ option +"' Won..!!!");
+				setTimeout(function(){alert("Game Over\n-Play Again ??");
 				restartGame()},1000);
 			}
 
@@ -399,12 +399,12 @@
 			matrix._12_=option;
 			if(matrix._12_ == matrix._02_&&matrix._02_ == matrix._22_){
 				_VeritclerightrowHigh();
-				setTimeout(function(){alert("Game Over '"+ option +"' Won..!!!");
+				setTimeout(function(){alert("Game Over\n-Play Again ??");
 				restartGame()},1000);
 			}
 			else if(matrix._12_ == matrix._10_&&matrix._10_ == matrix._11_){
 				_HorizontalmidrowHigh();
-				setTimeout(function(){alert("Game Over '"+ option +"' Won..!!!");
+				setTimeout(function(){alert("Game Over\n-Play Again ??");
 				restartGame()},1000);
 			};
 
@@ -413,17 +413,17 @@
 			matrix._20_=option;
 			if(matrix._20_ == matrix._00_&&matrix._00_ == matrix._10_){
 				_VerticleleftrowHigh();
-				setTimeout(function(){alert("Game Over '"+ option +"' Won..!!!");
+				setTimeout(function(){alert("Game Over\n-Play Again ??");
 				restartGame()},1000);
 			}
 			else if(matrix._20_ == matrix._21_&&matrix._21_ == matrix._22_){
 				_HorizontalbottomrowHigh();
-				setTimeout(function(){alert("Game Over '"+ option +"' Won..!!!");
+				setTimeout(function(){alert("Game Over\n-Play Again ??");
 				restartGame()},1000);
 			}
 			else if(matrix._20_ == matrix._11_&&matrix._11_ == matrix._02_){
 				_Cross_2High();
-				setTimeout(function(){alert("Game Over '"+ option +"' Won..!!!");
+				setTimeout(function(){alert("Game Over\n-Play Again ??");
 				restartGame()},1000);
 			};
 
@@ -432,12 +432,12 @@
 			matrix._21_=option;
 			if(matrix._21_ == matrix._20_&&matrix._20_ == matrix._22_){
 				_HorizontalbottomrowHigh();
-				setTimeout(function(){alert("Game Over '"+ option +"' Won..!!!");
+				setTimeout(function(){alert("Game Over\n-Play Again ??");
 				restartGame()},1000);
 			}
 			else if(matrix._21_ == matrix._11_&&matrix._11_ == matrix._01_){
 				_VerticlemiddlerowHigh();
-				setTimeout(function(){alert("Game Over '"+ option +"' Won..!!!");
+				setTimeout(function(){alert("Game Over\n-Play Again ??");
 				restartGame()},1000);
 			};
 
@@ -446,17 +446,17 @@
 			matrix._22_=option;
 			if(matrix._22_ == matrix._00_&&matrix._00_ == matrix._11_){
 				_Cross_1High();
-				setTimeout(function(){alert("Game Over '"+ option +"' Won..!!!");
+				setTimeout(function(){alert("Game Over\n-Play Again ??");
 				restartGame()},1000);
 			}
 			else if(matrix._22_ == matrix._02_&&matrix._02_ == matrix._12_){
 				_VeritclerightrowHigh();
-				setTimeout(function(){alert("Game Over '"+ option +"' Won..!!!");
+				setTimeout(function(){alert("Game Over\n-Play Again ??");
 				restartGame()},1000);
 			}
 			else if(matrix._22_ == matrix._20_&&matrix._20_ == matrix._21_){
 				_HorizontalbottomrowHigh();
-				setTimeout(function(){alert("Game Over '"+ option +"' Won..!!!");
+				setTimeout(function(){alert("Game Over\n-Play Again ??");
 				restartGame()},1000);
 			};
 
