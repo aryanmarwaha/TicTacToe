@@ -1,0 +1,373 @@
+body{
+	background-color:black;
+	overflow: hidden;
+	background-image: url(techBackground.png);
+	background-repeat: repeat;
+}
+#back_animation :nth-child(1){
+	position: absolute;
+	top: 5vh;
+	left: 4vw;
+	height: 20vw;
+	width: 20vw;
+	border: 5vw solid darkslategrey;
+	border-radius: 50%;
+	border-top-color: yellow;
+	animation: rotating 5s linear infinite;
+}
+#back_animation :nth-child(2){
+	position: absolute;
+	bottom: 5vh;
+	right: 4vw;
+	height: 20vw;
+	width: 20vw;
+	border: 5vw solid darkslategrey;
+	border-radius: 50%;
+	border-top-color: yellow;
+	animation: rotating 5s linear infinite;
+}
+#back_animation :nth-child(3){
+	position: absolute;
+	top: 5vh;
+	right: 20vw;
+	height: 15vw;
+	width: 15vw;
+	border: 5vw solid orange;
+	border-radius: 50%;
+	border-top-color: darkslategrey;
+	border-bottom-color: darkslategrey;
+	animation: rotating 5s linear infinite;
+
+}
+#back_animation :nth-child(4){
+	position: absolute;
+	bottom: 5vh;
+	left: 20vw;
+	height: 10vw;
+	width: 10vw;
+	border: 5vw solid black;
+	border-radius: 50%;
+	border-top-color: green;
+	animation: rotating 3s linear infinite;
+
+}
+#blue_boxDIV{
+	position:fixed;
+	top: 20vh;
+	left: 19vw;
+	height: 60%;
+	width: 60%;
+	padding: 5px;
+	background-image: linear-gradient(to right,#2b1642,#3f2060,#2b1642);
+}
+#Login_startDIV center{
+	margin-top: 3vh;
+	font-size: 2rem;
+	font-family: monospace;
+	color: white;
+}
+#table_login_page{
+	margin-top: 1vw;
+	padding: 2vw;
+	border: none;	
+}
+#table_login_page td:nth-child(1){
+	border-right: 0.15vw solid white;
+	padding-right: 2vw;
+}
+#table_login_page td:nth-child(2){
+	border-left: 0.15vw solid white;
+	padding-left: 2vw;
+}
+#table_login_page td:nth-child(3){
+	border-right: 0.15vw solid white;
+	padding-right: 2vw;
+}
+#table_login_page input:nth-child(1){
+	background-color: white;
+	font-family: monospace;
+	font-size: 1.5rem;
+	text-align: center;
+	width: 10vw;
+	height: 5vh;
+	padding: 4vh 0vw 4h 0vw;
+
+}
+#table_login_page td:nth-child(4){
+	border-left: 0.15vw solid white;
+	padding-left: 2vw;
+}
+#table_login_page input:nth-child(2){
+	background-color: white;
+	font-family: monospace;
+	font-size: 1.5rem;
+	text-align: center;
+	width: 10vw;
+	height: 5vh;
+	padding: 4vh 0vw 4h 0vw;
+}
+#StartGame{
+	font-size: 1rem;
+	border:none;
+	width: auto;
+	min-height: 4vh;
+}
+
+
+/*main_DIV*/
+#main_DIV{
+	display:none;
+	width: auto;
+}
+#main_DIV table{
+	margin-top: 3vw;
+	background-color: transparent;
+	height: 17rem;
+	width: 23rem;
+	font-size: 4rem;
+	color: white;
+	align-content: center;
+	text-align: center;
+}
+#table_row0 :nth-child(1){
+	height: 7rem;
+	width: 7rem;
+	border-right:2px solid white;
+	border-bottom: 2px solid white;
+}
+#table_row0 :nth-child(2){
+	height: 7rem;
+	width: 7rem;
+	border-right:2px solid white;
+	border-bottom: 2px solid white;
+}
+#table_row0 :nth-child(3){
+	height: 7rem;
+	width: 7rem;
+	border-bottom: 2px solid white;
+}
+#table_row1 :nth-child(1){
+	height: 7rem;
+	width: 7rem;
+	border-right:2px solid white;
+	border-bottom: 2px solid white;
+}
+#table_row1 :nth-child(2){
+	height: 7rem;
+	width: 7rem;
+	border-right:2px solid white;
+	border-bottom: 2px solid white;
+}
+#table_row1 :nth-child(3){
+	height: 7rem;
+	width: 7rem;
+	border-bottom: 2px solid white;	
+
+}
+#table_row2 :nth-child(1){
+	height: 7rem;
+	width: 7rem;
+	border-right:2px solid white;
+
+}
+#table_row2 :nth-child(2){
+	height: 7rem;
+	width: 7rem;
+	border-right:2px solid white;
+
+}
+#table_row2 :nth-child(3){
+	height: 7rem;
+	width: 7rem;
+}
+#main_DIV label{
+	position:relative;
+	bottom: 1.2vw;
+	left: 4.5vw;
+	color: white;
+	font-family: monospace;
+	font-size: 1rem;
+}
+#main_DIV button{
+	position:relative;
+	bottom: 2vw;
+	right: 4.5vw;
+	float: right;
+	color: black;
+	font-family: monospace;
+	font-size: 1.5rem;
+	border: none;
+}
+
+@keyframes rotating{
+			to{
+				transform: rotate(720deg);
+			}
+		}
+		@media only screen and (max-width: 768px){
+			
+		}
+
+
+
+@media screen and (max-width: 400px){
+			#Login_startDIV center{
+				margin-top: 4vh;
+				font-size: 1rem;
+				color: white;
+			}
+			#table_login_page input:nth-child(1){
+				font-size: 1rem;
+				width: 15vw;
+				height: 4vh;
+				padding: 2vh 0vw 2h 0vw;
+			}
+			#blue_boxDIV{
+				left: 14.5vw;
+				width: 70%;
+			}
+			#main_DIV table{
+				margin-top: 3vw;
+				height: 13rem;
+				width: 13rem;
+				font-size: 4rem;
+			}
+			#table_row0 :nth-child(1){
+				height: 4rem;
+				width: 4rem;
+			}
+			#table_row0 :nth-child(2){
+				height: 4rem;
+				width: 4rem;
+			}
+			#table_row0 :nth-child(3){
+				height: 4rem;
+				width: 4rem;
+			}
+			#table_row1 :nth-child(1){
+				height: 4rem;
+				width: 4rem;
+			}
+			#table_row1 :nth-child(2){
+				height: 4rem;
+				width: 4rem;
+			}
+			#table_row1 :nth-child(3){
+				height: 4rem;
+				width: 4rem;
+			}
+			#table_row2 :nth-child(1){
+				height: 4rem;
+				width: 4rem;
+			}
+			#table_row2 :nth-child(2){
+				height: 4rem;
+				width: 4rem;
+			}
+			#table_row2 :nth-child(3){
+				height: 4rem;
+				width: 4rem;
+			}
+			#main_DIV label{
+				bottom: -15vw;
+				left: 4.5vw;
+				color: white;
+				font-family: monospace;
+				font-size: 1rem;
+			}
+			#main_DIV button{
+				position:relative;
+				bottom: -12vw;
+				right: 4.5vw;
+				float: right;
+				color: black;
+				font-family: monospace;
+				font-size: 1.5rem;
+				border: none;
+			}
+		}
+
+@media screen and (max-width: 700px) and (min-width: 400px){
+			#Login_startDIV center{
+				margin-top: 4vh;
+				font-size: 1rem;
+				color: white;
+			}
+			#table_login_page input:nth-child(1){
+				font-size: 1rem;
+				width: 15vw;
+				height: 4vh;
+				padding: 2vh 0vw 2h 0vw;
+			}
+			#blue_boxDIV{
+				left: 14.5vw;
+				width: 70%;
+			}
+			#main_DIV table{
+				margin-top: 3vw;
+				height: 13rem;
+				width: 13rem;
+				font-size: 4rem;
+			}
+			#table_row0 :nth-child(1){
+				height: 4rem;
+				width: 4rem;
+			}
+			#table_row0 :nth-child(2){
+				height: 4rem;
+				width: 4rem;
+			}
+			#table_row0 :nth-child(3){
+				height: 4rem;
+				width: 4rem;
+			}
+			#table_row1 :nth-child(1){
+				height: 4rem;
+				width: 4rem;
+			}
+			#table_row1 :nth-child(2){
+				height: 4rem;
+				width: 4rem;
+			}
+			#table_row1 :nth-child(3){
+				height: 4rem;
+				width: 4rem;
+			}
+			#table_row2 :nth-child(1){
+				height: 4rem;
+				width: 4rem;
+			}
+			#table_row2 :nth-child(2){
+				height: 4rem;
+				width: 4rem;
+			}
+			#table_row2 :nth-child(3){
+				height: 4rem;
+				width: 4rem;
+			}
+			#main_DIV label{
+				position: fixed;
+				top: 3vw;
+				left: 4.5vw;
+				color: white;
+				font-family: monospace;
+				font-size: 1rem;
+				background-color: black;
+				height: 4vw;
+				padding: 5px 10px 5px 10px;
+				border: 1px solid white;
+
+
+			}
+			#main_DIV button{
+				position: fixed;
+				top: 3vw;
+				right: 6vw;
+				font-family: monospace;
+				font-size: 1.5rem;
+				border: none;
+				max-height: 5.5vw;
+				min-width: 5.5vw;
+				font-weight: 800;
+			}
+		}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" type="text/css" href="TXO_style.css">
+	<style type="text/css">
+		
+	</style>
+</head>
+<body style="">
+	<div id="back_animation">
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+	<div id="blue_boxDIV">
+		
+		<div id="Login_startDIV">
+			<center>
+				<label>Welcome ...!!<br>Please Enter Your Alias :</label><br>
+				<table border="0" id="table_login_page" cellpadding="5vw">
+					<tr>
+						<td><center>Player 1</center></td>
+						<td><center>Player 2</center></td>
+					</tr>
+					<tr>
+						<td><center>
+							<input placeholder="User1" style="" maxlength="10" id="User1name"></center>
+						</td>
+						<td><center>
+							<input placeholder="User2" style="" maxlength="10" id="User2name"></center>
+						</td>
+					</tr>
+				</table>
+				<br>
+				<button id="StartGame">START</button>
+
+			</center></div>
+		<div id="main_DIV">
+
+			<center>
+				<table border="0">
+					<tr id="table_row0">
+						<td id="00"></td>
+						<td id="01"></td>
+						<td id="02"></td>
+					</tr>
+					<tr id="table_row1">
+						<td id="10"></td>
+						<td id="11"></td>
+						<td id="12"></td>
+					</tr>
+					<tr id="table_row2">
+						<td id="20"></td>
+						<td id="21"></td>
+						<td id="22"></td>
+					</tr>
+				</table>
+			</center>
+			<label  id="Player_TURN">Player Turn</label>
+			<button  onclick="restartGame()">↻</button>
+		</div>
+	</div>
+
+<script type="text/javascript" src="TXO_javascript.js"></script>
+</body>
+</html>
